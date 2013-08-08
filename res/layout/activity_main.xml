@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/sub_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="BRAIN SPEED" />
+    
+    <TextView
+        android:id="@+id/main_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sub_title_text"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dip"
+        android:paddingTop="50dip"
+        android:paddingBottom="50dip"
+        android:text="숫자 계산" />    
+
+    
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_title_text"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dip"
+        android:text="Start" />   
+    <Button
+        android:id="@+id/easymode_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start_button"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dip"
+        android:text="Easy Mode" />   
+    <Button
+        android:id="@+id/ranking_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/easymode_button"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dip"
+        android:text="Ranking" />
+    <Button
+        android:id="@+id/help_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ranking_button"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dip"
+        android:text="Help" />   
+                               
+    <Button
+        android:id="@+id/setting_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_button"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dip"
+        android:text="Setting" />      
+    
+</RelativeLayout>
