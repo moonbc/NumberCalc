@@ -346,4 +346,108 @@
             android:textSize="20dip" />
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/calculaation1_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number_box6_layout"
+        android:background="@android:color/darker_gray"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:paddingLeft="20dip"
+            android:paddingRight="5dip"
+            android:text="4"
+            android:textSize="40dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dip"
+            android:paddingRight="5dip"
+            android:text="-"
+            android:textSize="40dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:paddingLeft="20dip"
+            android:paddingRight="5dip"
+            android:text="0"
+            android:textSize="40dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dip"
+            android:paddingRight="5dip"
+            android:text="="
+            android:textSize="40dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:paddingLeft="20dip"
+            android:paddingRight="5dip"
+            android:text="-3"
+            android:textSize="40dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/calculaation2_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calculaation1_layout"
+        android:background="@android:color/darker_gray"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:paddingLeft="20dip"
+            android:paddingRight="5dip"
+            android:text="4"
+            android:textSize="40dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dip"
+            android:paddingRight="5dip"
+            android:text="-"
+            android:textSize="40dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:paddingLeft="20dip"
+            android:paddingRight="5dip"
+            android:text="0"
+            android:textSize="40dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dip"
+            android:paddingRight="5dip"
+            android:text="="
+            android:textSize="40dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:paddingLeft="20dip"
+            android:paddingRight="5dip"
+            android:text="-3"
+            android:textSize="40dip" />
+    </LinearLayout>
+
 </RelativeLayout>
