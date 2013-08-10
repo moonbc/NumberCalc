@@ -16,11 +16,9 @@ public class GameActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
-		View customView = getLayoutInflater().inflate(R.layout.main_game, null);
 		setContentView(R.layout.main_game);
 		
-		mTimeCount = (TextView)customView.findViewById(R.id.time_counter_text);
+		mTimeCount = (TextView)findViewById(R.id.time_counter_text);
 		mHandler.sendEmptyMessage(0);
 		
 	
@@ -28,7 +26,9 @@ public class GameActivity extends Activity {
 	Handler mHandler = new Handler() {
 		public void handleMessage(android.os.Message msg) {
 			value++;
-			mTimeCount.setText(value);
+			
+			
+			mTimeCount.setText(String.valueOf(value));
 			mHandler.sendEmptyMessageDelayed(0, 1000);
 		}
 	};
