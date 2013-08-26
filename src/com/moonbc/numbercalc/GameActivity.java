@@ -67,10 +67,6 @@ public class GameActivity extends Activity {
 		mHandler.sendEmptyMessage(0);
 		
 		
-		
-		
-		
-		
 		mNumber1Button = (Button)findViewById(R.id.number1_button);
 		mNumber2Button = (Button)findViewById(R.id.number2_button);
 		mNumber3Button = (Button)findViewById(R.id.number3_button);
@@ -94,20 +90,12 @@ public class GameActivity extends Activity {
 		mNumber18Button = (Button)findViewById(R.id.number18_button);
 		mNumber19Button = (Button)findViewById(R.id.number19_button);
 		mNumber20Button = (Button)findViewById(R.id.number20_button);		
-		mNumber21Button = (Button)findViewById(R.id.number13_button);
-		mNumber22Button = (Button)findViewById(R.id.number14_button);
-		mNumber23Button = (Button)findViewById(R.id.number15_button);
-		mNumber24Button = (Button)findViewById(R.id.number16_button);
-		
-		mNumber25Button = (Button)findViewById(R.id.number17_button);
-		mNumber26Button = (Button)findViewById(R.id.number18_button);
-		mNumber19Button = (Button)findViewById(R.id.number19_button);
-		mNumber20Button = (Button)findViewById(R.id.number20_button);	
 		mNumber21Button = (Button)findViewById(R.id.number21_button);
 		mNumber22Button = (Button)findViewById(R.id.number22_button);
 		mNumber23Button = (Button)findViewById(R.id.number23_button);
 		mNumber24Button = (Button)findViewById(R.id.number24_button);
 		
+
 		mNumber25Button = (Button)findViewById(R.id.number25_button);
 		mNumber26Button = (Button)findViewById(R.id.number26_button);
 		mNumber27Button = (Button)findViewById(R.id.number27_button);
@@ -166,6 +154,7 @@ public class GameActivity extends Activity {
 			
 	
 	}
+	
 	Handler mHandler = new Handler() {
 		public void handleMessage(android.os.Message msg) {
 			value++;
@@ -202,7 +191,6 @@ public class GameActivity extends Activity {
 				case 4:
 					mNumber5Button.setText(String.valueOf(num));
 					break;			
-					
 				case 5:
 					mNumber6Button.setText(String.valueOf(num));
 					break;
