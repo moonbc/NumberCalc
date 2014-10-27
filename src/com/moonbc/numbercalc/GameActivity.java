@@ -120,7 +120,7 @@ public class GameActivity extends Activity {
 				//mNumber1Button.setBackgroundColor(Color.BLUE);
 
 				mNumber1Button.setEnabled(false);
-				Toast.makeText(getApplicationContext(), "button1", Toast.LENGTH_LONG).show();
+//				Toast.makeText(getApplicationContext(), "button1", Toast.LENGTH_LONG).show();
 			}
 		});	
 		
@@ -132,7 +132,7 @@ public class GameActivity extends Activity {
 				//mNumber1Button.setBackgroundColor(Color.BLUE);
 
 				mNumber1Button.setEnabled(false);
-				Toast.makeText(getApplicationContext(), "button1", Toast.LENGTH_LONG).show();
+//				Toast.makeText(getApplicationContext(), "button1", Toast.LENGTH_LONG).show();
 			}
 		});		
 		
@@ -295,7 +295,7 @@ public class GameActivity extends Activity {
 	@Override
 	public void onBackPressed() {
 		// TODO Auto-generated method stub
-		Toast.makeText(getApplicationContext(), "back key", Toast.LENGTH_SHORT).show();
+//		Toast.makeText(getApplicationContext(), "back key", Toast.LENGTH_SHORT).show();
 		super.onBackPressed();
 	}
 }
